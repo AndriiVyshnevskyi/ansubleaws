@@ -1,0 +1,10 @@
+---
+- name: test aws
+  hosts: STAGING_SERVERS_WEB
+  become: yes
+  gather_facts: yes
+  tasks:
+    - name: Display host details
+      debug:
+        var: ansible_facts
+

@@ -1,0 +1,4 @@
+---
+[STAGING_SERVERS_WEB]
+AWS1 ansible_host=54.165.137.69
+AWS2 ansible_host=54.224.186.132
